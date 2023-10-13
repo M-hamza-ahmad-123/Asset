@@ -1,0 +1,18 @@
+/* In your CSS or a CSS-in-JS solution */
+@keyframes resizeAnimation {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .resize-animation {
+    animation-name: resizeAnimation;
+    animation-duration: 0.5s; /* Adjust the duration as needed */
+    animation-timing-function: ease; /* Adjust the timing function as needed */
+  }
+  
